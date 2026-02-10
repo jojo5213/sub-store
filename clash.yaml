@@ -19,6 +19,16 @@
   },
   "proxies": [
     {
+      "name": "🇬🇧GB英国",
+      "type": "trojan",
+      "server": "167.68.4.199",
+      "port": 2053,
+      "password": "Aimer",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "epge.muarua.filegear-sg.me"
+    },
+    {
       "name": "未知12",
       "type": "trojan",
       "server": "104.18.32.37",
@@ -32,20 +42,6 @@
       "name": "US美国(ProxyGo免费节点分享)",
       "type": "vless",
       "server": "25.25.25.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "SG新加坡(ProxyGo免费节点分享)",
-      "type": "vless",
-      "server": "104.129.165.138",
       "port": 2096,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
@@ -71,23 +67,7 @@
       "skip-cert-verify": true
     },
     {
-      "name": "github.com/freefq - 美国CloudFlare公司CDN节点 9",
-      "type": "vmess",
-      "server": "104.21.82.183",
-      "port": 8880,
-      "uuid": "5a7021e0-26b4-45d6-b175-fe551601ca97",
-      "alterId": 0,
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/",
-        "headers": {
-          "Host": "server26.beheshtbaneh.com"
-        }
-      }
-    },
-    {
-      "name": "GB英国(mibei77.com 米贝节点分享)",
+      "name": "US_speednode_0079",
       "type": "trojan",
       "server": "167.68.4.199",
       "port": 2053,
@@ -97,7 +77,17 @@
       "sni": "epge.muarua.filegear-sg.me"
     },
     {
-      "name": "🇬🇧GB英国",
+      "name": "俄羅斯",
+      "type": "trojan",
+      "server": "109.234.211.66",
+      "port": 8443,
+      "password": "trojan",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "store.timimi.dpdns.org"
+    },
+    {
+      "name": "GB英国(mibei77.com 米贝节点分享)",
       "type": "trojan",
       "server": "167.68.4.199",
       "port": 2053,
@@ -127,105 +117,177 @@
       "sni": "www.gossipglove.com"
     },
     {
-      "name": "US VLESS-121 | free-nodes",
-      "type": "vless",
-      "server": "104.18.32.47",
-      "port": 443,
-      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
-      "udp": true,
+      "name": "github.com/freefq - 美国CloudFlare公司CDN节点 9",
+      "type": "vmess",
+      "server": "104.21.82.183",
+      "port": 8880,
+      "uuid": "5a7021e0-26b4-45d6-b175-fe551601ca97",
+      "alterId": 0,
+      "cipher": "auto",
       "network": "ws",
       "ws-opts": {
-        "path": "/"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "US_speednode_0079",
-      "type": "trojan",
-      "server": "167.68.4.199",
-      "port": 2053,
-      "password": "Aimer",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "epge.muarua.filegear-sg.me"
-    },
-    {
-      "name": "DE VLESS-122 | free-nodes",
-      "type": "vless",
-      "server": "188.114.98.0",
-      "port": 443,
-      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "俄羅斯",
-      "type": "trojan",
-      "server": "109.234.211.66",
-      "port": 8443,
-      "password": "trojan",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "store.timimi.dpdns.org"
-    },
-    {
-      "name": "👉🆔 @v2ray_configs_pool 📡 🇩🇪DE_2 🧭 4.4MB/s",
-      "type": "vless",
-      "server": "172.67.180.92",
-      "port": 443,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/--Telegram---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN?ed=2560"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "Buy @The_Last_Eli 🇩🇪🔗",
-      "type": "vless",
-      "server": "167.82.92.159",
-      "port": 80,
-      "uuid": "0569f3ce-447b-4ac5-aae3-b47ae55351f7",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
+        "path": "/",
+        "headers": {
+          "Host": "server26.beheshtbaneh.com"
+        }
       }
     },
     {
-      "name": "🇬🇧GB英国2",
-      "type": "trojan",
-      "server": "mmkk.www890604.dpdns.org",
-      "port": 443,
-      "password": "5cccb4da-8aee-4b01-be84-2056265e52dc",
-      "udp": true,
-      "skip-cert-verify": true,
-      "sni": "mMKK.WwW890604.DpdNS.OrG"
-    },
-    {
-      "name": "US美国(ProxyGo免费节点分享)_16",
+      "name": "SG新加坡(ProxyGo免费节点分享)",
       "type": "vless",
-      "server": "blackshadow.dpdns.org",
-      "port": 443,
-      "uuid": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
+      "server": "104.129.165.138",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/44.209.52.7-443"
+        "path": "/"
       },
       "tls": true,
       "skip-cert-verify": true
     },
     {
-      "name": "美国 CloudFlare节点",
+      "name": "RU俄罗斯(mibei77.com 米贝节点分享)",
+      "type": "vless",
+      "server": "45.12.30.138",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "HK香港(mibei77.com 米贝节点分享)",
+      "type": "vless",
+      "server": "167.68.42.238",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "HK香港(mibei77.com 米贝节点分享)_13",
+      "type": "vless",
+      "server": "104.17.169.143",
+      "port": 443,
+      "uuid": "29ff2954-dfea-4d20-8089-059cfa861453",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/mall/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=tw.william.us.ci"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享)",
+      "type": "vless",
+      "server": "94.247.142.238",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享)_15",
+      "type": "vless",
+      "server": "92.53.190.138",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "DE德国(mibei77.com 米贝节点分享)",
+      "type": "vless",
+      "server": "45.12.31.138",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "NL荷兰(mibei77.com 米贝节点分享)",
+      "type": "vless",
+      "server": "89.116.250.138",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享)_18",
+      "type": "vless",
+      "server": "77.105.163.138",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "GB英国(mibei77.com 米贝节点分享)_19",
+      "type": "vless",
+      "server": "185.170.166.138",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "HK香港(mibei77.com 米贝节点分享)_20",
+      "type": "vless",
+      "server": "45.85.119.238",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "未知11",
       "type": "vmess",
       "server": "172.64.149.182",
       "port": 8080,
@@ -241,35 +303,15 @@
       }
     },
     {
-      "name": "巴西圣保罗 CloudFlare节点",
-      "type": "vmess",
-      "server": "188.114.98.0",
-      "port": 8080,
-      "uuid": "nasnet",
-      "alterId": 0,
-      "cipher": "auto",
+      "name": "Buy @The_Last_Eli 🇩🇪🔗",
+      "type": "vless",
+      "server": "167.82.92.159",
+      "port": 80,
+      "uuid": "0569f3ce-447b-4ac5-aae3-b47ae55351f7",
+      "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/nasnet/cdn?ed=2560",
-        "headers": {
-          "Host": "nasnet-162191099.sharghdaily.co"
-        }
-      }
-    },
-    {
-      "name": "美国 CloudFlare节点_19",
-      "type": "vmess",
-      "server": "104.21.69.44",
-      "port": 8080,
-      "uuid": "nasnet",
-      "alterId": 0,
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/nasnet/cdn",
-        "headers": {
-          "Host": "nasnet-511952424.mcitel.co"
-        }
+        "path": "/"
       }
     },
     {
@@ -287,7 +329,7 @@
       "skip-cert-verify": true
     },
     {
-      "name": "🇸🇬SG_21",
+      "name": "🇸🇬SG_24",
       "type": "vless",
       "server": "3.0.50.69",
       "port": 443,
@@ -301,29 +343,97 @@
       "skip-cert-verify": true
     },
     {
-      "name": "🇸🇬SG_22",
+      "name": "CA加拿大(mibei77.com 米贝节点分享)",
       "type": "vless",
-      "server": "34.143.159.175",
+      "server": "104.18.32.47",
+      "port": 80,
+      "uuid": "4a8d4562-7192-4e83-8a24-75515a1666a3",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed"
+      }
+    },
+    {
+      "name": "SG新加坡(mibei77.com 米贝节点分享)",
+      "type": "vless",
+      "server": "52.77.114.70",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
       },
       "tls": true,
       "skip-cert-verify": true
     },
     {
-      "name": "US VLESS-123 | free-nodes",
+      "name": "DE德国(mibei77.com 米贝节点分享)_27",
       "type": "vless",
-      "server": "188.114.98.0",
-      "port": 443,
-      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
+      "server": "45.12.30.238",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/"
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "JP日本(mibei77.com 米贝节点分享)",
+      "type": "vless",
+      "server": "103.116.7.138",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "🇺🇸_US_美国",
+      "type": "vless",
+      "server": "172.67.160.192",
+      "port": 443,
+      "uuid": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/free/103.101.153.32:443"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "🇺🇸_US_美国_2",
+      "type": "vless",
+      "server": "141.101.123.40",
+      "port": 443,
+      "uuid": "8388434b-bbc8-4e00-b497-69a7f56f6e24",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/ws"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "🇺🇸_US_美国_3",
+      "type": "vless",
+      "server": "173.245.59.121",
+      "port": 443,
+      "uuid": "979b6822-d65a-400d-89f8-30391903ac20",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/ws"
       },
       "tls": true,
       "skip-cert-verify": true
@@ -374,7 +484,7 @@
       }
     },
     {
-      "name": "未知11",
+      "name": " ☬SHΞN™",
       "type": "vmess",
       "server": "172.64.149.182",
       "port": 8080,
@@ -405,29 +515,33 @@
     {
       "name": "[🏁]t.me/ConfigsHub`",
       "type": "vless",
-      "server": "104.18.32.47",
-      "port": 80,
-      "uuid": "e31085f9-7f55-4a7d-b00e-ce94149477cb",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/?ed"
-      }
+        "path": "/"
+      },
+      "tls": true,
+      "skip-cert-verify": true
     },
     {
-      "name": "[🏁]t.me/ConfigsHub`_30",
+      "name": "[🏁]t.me/ConfigsHub`_38",
       "type": "vless",
-      "server": "104.18.32.47",
-      "port": 80,
-      "uuid": "a5712440-3cec-4a1b-82e8-767c54acd83a",
+      "server": "141.101.114.165",
+      "port": 443,
+      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/?ed"
-      }
+        "path": "/--Telegram---@TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS"
+      },
+      "tls": true,
+      "skip-cert-verify": true
     },
     {
-      "name": "[🏁]t.me/ConfigsHub`_31",
+      "name": "[🏁]t.me/ConfigsHub`_39",
       "type": "vless",
       "server": "172.67.180.92",
       "port": 443,
@@ -441,18 +555,68 @@
       "skip-cert-verify": true
     },
     {
-      "name": "[🏁]t.me/ConfigsHub`_32",
+      "name": "[🏁]t.me/ConfigsHub`_40",
       "type": "vless",
-      "server": "104.21.13.210",
-      "port": 443,
-      "uuid": "0b3ad86e-1818-49bb-949d-4e85d137a16d",
+      "server": "192.200.160.228",
+      "port": 2083,
+      "uuid": "9f846e5c-56f9-4670-8be2-5b00d2a107c0",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512"
+        "path": "/api03"
       },
       "tls": true,
       "skip-cert-verify": true
+    },
+    {
+      "name": "[🏁]t.me/ConfigsHub`_41",
+      "type": "vless",
+      "server": "188.114.98.2",
+      "port": 443,
+      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "[🏁]t.me/ConfigsHub`_42",
+      "type": "vless",
+      "server": "162.159.135.42",
+      "port": 443,
+      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "@V2rayng_Fast`",
+      "type": "vless",
+      "server": "104.16.1.4",
+      "port": 443,
+      "uuid": "1108917b-5f7e-45fc-ac82-c06965a9338f",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/v2rayroad"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "vless",
+      "type": "vless",
+      "server": "104.17.147.22",
+      "port": 8080,
+      "uuid": "%50a%72sa%73%68%6fna%6d-Bot-37",
+      "udp": true
     },
     {
       "name": "@v2Meli",
@@ -469,7 +633,7 @@
       "skip-cert-verify": true
     },
     {
-      "name": "@v2Meli_34",
+      "name": "@v2Meli_46",
       "type": "vless",
       "server": "173.245.59.132",
       "port": 8880,
@@ -477,46 +641,60 @@
       "udp": true
     },
     {
-      "name": "کانال تلگرام : Free_VPN_CH@",
+      "name": "@v2Meli_47",
       "type": "vless",
-      "server": "104.20.1.252",
-      "port": 80,
-      "uuid": "1a94fbd9-79d2-4aa7-bf1d-074f678d27ab",
+      "server": "104.17.148.22",
+      "port": 443,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/?ed"
-      }
-    },
-    {
-      "name": "V2ray_confiig`",
-      "type": "vless",
-      "server": "104.20.1.252",
-      "port": 80,
-      "uuid": "ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed"
-      }
-    },
-    {
-      "name": "美国 V2CROSS.COM",
-      "type": "vmess",
-      "server": "nextmi.hajmyab.ir",
-      "port": 2053,
-      "uuid": "9585636a-54bc-419a-90a1-76c5c6ec74df",
-      "alterId": 0,
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/",
-        "headers": {
-          "Host": "app.hajmyab.ir"
-        }
+        "path": "/egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@V2ray_Alpha"
       },
       "tls": true,
       "skip-cert-verify": true
+    },
+    {
+      "name": "@v2Meli_48",
+      "type": "vless",
+      "server": "104.26.5.57",
+      "port": 443,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/egFIvRfuMjM1LjE2OS4yMzQ=?ed=2560/?@V2ray_Alpha"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "@v2Meli_49",
+      "type": "vless",
+      "server": "185.146.173.39",
+      "port": 8880,
+      "uuid": "Parsashonam-254",
+      "udp": true
+    },
+    {
+      "name": "🇬🇧GB英国2",
+      "type": "trojan",
+      "server": "mmkk.www890604.dpdns.org",
+      "port": 443,
+      "password": "5cccb4da-8aee-4b01-be84-2056265e52dc",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "mMKK.WwW890604.DpdNS.OrG"
+    },
+    {
+      "name": "🇺🇸US美国6",
+      "type": "trojan",
+      "server": "vvvbbbnhj.taipei102.indevs.in",
+      "port": 443,
+      "password": "2bfe58f7-da1d-45df-ab43-7c665b20ee29",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "vvvbbbnhj.taipei102.indevs.in"
     },
     {
       "name": "🇸🇬新加坡节点",
@@ -533,111 +711,43 @@
       "skip-cert-verify": true
     },
     {
-      "name": "CA加拿大(mibei77.com 米贝节点分享)",
+      "name": "🇸🇬SG_53",
       "type": "vless",
-      "server": "104.18.32.47",
-      "port": 80,
-      "uuid": "4a8d4562-7192-4e83-8a24-75515a1666a3",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed"
-      }
-    },
-    {
-      "name": "HK香港(mibei77.com 米贝节点分享)",
-      "type": "vless",
-      "server": "104.17.169.143",
+      "server": "34.143.159.175",
       "port": 443,
-      "uuid": "29ff2954-dfea-4d20-8089-059cfa861453",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/mall/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=tw.william.us.ci"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "DE德国(mibei77.com 米贝节点分享)",
-      "type": "vless",
-      "server": "45.12.30.238",
-      "port": 2096,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+        "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
       },
       "tls": true,
       "skip-cert-verify": true
     },
     {
-      "name": "RU俄罗斯(mibei77.com 米贝节点分享)",
+      "name": "🇸🇬SG_54",
       "type": "vless",
-      "server": "45.12.30.138",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享)",
-      "type": "vless",
-      "server": "94.247.142.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "NL荷兰(mibei77.com 米贝节点分享)",
-      "type": "vless",
-      "server": "89.116.250.138",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "🇺🇸_US_美国_2",
-      "type": "vless",
-      "server": "141.101.123.40",
+      "server": "52.77.114.70",
       "port": 443,
-      "uuid": "8388434b-bbc8-4e00-b497-69a7f56f6e24",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/ws"
+        "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
       },
       "tls": true,
       "skip-cert-verify": true
     },
     {
-      "name": "🇺🇸_US_美国_3",
+      "name": "🇸🇬SG_55",
       "type": "vless",
-      "server": "173.245.59.121",
+      "server": "54.251.137.92",
       "port": 443,
-      "uuid": "979b6822-d65a-400d-89f8-30391903ac20",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/ws"
+        "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
       },
       "tls": true,
       "skip-cert-verify": true
@@ -671,6 +781,118 @@
       "skip-cert-verify": true
     },
     {
+      "name": "未知 VLESS-72 | free-nodes",
+      "type": "vless",
+      "server": "104.20.1.252",
+      "port": 80,
+      "uuid": "65fe56c2-78ec-417a-a666-9f393eac8b61",
+      "udp": true
+    },
+    {
+      "name": "DE VLESS-75 | free-nodes",
+      "type": "vless",
+      "server": "104.18.185.26",
+      "port": 2096,
+      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "US VLESS-76 | free-nodes",
+      "type": "vless",
+      "server": "104.21.224.5",
+      "port": 2096,
+      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "@v2Meli_61",
+      "type": "vless",
+      "server": "104.24.34.94",
+      "port": 443,
+      "uuid": "b55ec078-3b17-4ed1-a697-71f464cdcaaa",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560/?JOKERRVPN"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "@v2Meli_62",
+      "type": "vless",
+      "server": "104.16.0.113",
+      "port": 80,
+      "uuid": "bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560/?JOKERRVPN"
+      }
+    },
+    {
+      "name": "@v2Meli_63",
+      "type": "vless",
+      "server": "104.18.0.191",
+      "port": 443,
+      "uuid": "d5c1abb8-2024-4fc0-9810-09dc10a5b948",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/admin"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "US_speednode_0074",
+      "type": "vless",
+      "server": "14.102.228.238",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      }
+    },
+    {
+      "name": "JP日本(mibei77.com 米贝节点分享)_65",
+      "type": "vless",
+      "server": "nodejs.org",
+      "port": 2052,
+      "uuid": "f8ae018b-b84d-4c9b-b03b-4642c3a25977",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed"
+      }
+    },
+    {
+      "name": "US美国(mibei77.com 米贝节点分享)_66",
+      "type": "vless",
+      "server": "nodejs.org",
+      "port": 80,
+      "uuid": "6abc2840-25fd-4dd7-b1aa-0892fe98f2d9",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed"
+      }
+    },
+    {
       "name": "DE VLESS-44 | free-nodes",
       "type": "vless",
       "server": "167.82.92.159",
@@ -688,6 +910,34 @@
       "server": "104.20.1.252",
       "port": 80,
       "uuid": "1a94fbd9-79d2-4aa7-bf1d-074f678d27ab",
+      "udp": true
+    },
+    {
+      "name": "DE VLESS-51 | free-nodes",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "port": 80,
+      "uuid": "1e35b4bf-b270-4c0b-918d-62746eedd2ad",
+      "udp": true
+    },
+    {
+      "name": "CA VLESS-64 | free-nodes",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "port": 80,
+      "uuid": "4a8d4562-7192-4e83-8a24-75515a1666a3",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      }
+    },
+    {
+      "name": "未知 VLESS-93 | free-nodes",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "port": 80,
+      "uuid": "a5712440-3cec-4a1b-82e8-767c54acd83a",
       "udp": true
     },
     {
@@ -711,59 +961,67 @@
       }
     },
     {
-      "name": " ☬SHΞN™",
-      "type": "vmess",
-      "server": "172.64.149.182",
-      "port": 8080,
-      "uuid": "nasnet",
-      "alterId": 0,
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/nasnet/cdn?ed=2560",
-        "headers": {
-          "Host": "nasnet-5712964102.sharghdaily.co"
-        }
-      }
-    },
-    {
-      "name": "@v2Meli_54",
+      "name": "未知 VLESS-113 | free-nodes",
       "type": "vless",
-      "server": "104.17.148.22",
-      "port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@V2ray_Alpha"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "@v2Meli_55",
-      "type": "vless",
-      "server": "104.26.5.57",
-      "port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/egFIvRfuMjM1LjE2OS4yMzQ=?ed=2560/?@V2ray_Alpha"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "@v2Meli_56",
-      "type": "vless",
-      "server": "185.146.173.39",
-      "port": 8880,
-      "uuid": "Parsashonam-254",
+      "server": "104.18.32.47",
+      "port": 80,
+      "uuid": "e9052516-1e37-4665-a0b4-a5c65dd0ab70",
       "udp": true
     },
     {
-      "name": "کانال تلگرام : Free_VPN_CH@_57",
+      "name": "US VLESS-121 | free-nodes",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "port": 443,
+      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "DE VLESS-122 | free-nodes",
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "کانال تلگرام : Free_VPN_CH@",
+      "type": "vless",
+      "server": "104.20.1.252",
+      "port": 80,
+      "uuid": "1a94fbd9-79d2-4aa7-bf1d-074f678d27ab",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed"
+      }
+    },
+    {
+      "name": "V2ray_confiig`",
+      "type": "vless",
+      "server": "104.20.1.252",
+      "port": 80,
+      "uuid": "ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed"
+      }
+    },
+    {
+      "name": "کانال تلگرام : Free_VPN_CH@_79",
       "type": "vless",
       "server": "104.20.1.252",
       "port": 80,
@@ -789,47 +1047,7 @@
       "skip-cert-verify": true
     },
     {
-      "name": "کانال تلگرام : Free_VPN_CH@_59",
-      "type": "vless",
-      "server": "104.20.1.252",
-      "port": 80,
-      "uuid": "4c97ec3e-3527-48c5-80ff-b715463896ba",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed"
-      }
-    },
-    {
-      "name": "NetAccount",
-      "type": "vless",
-      "server": "104.21.40.34",
-      "port": 443,
-      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "@v2_mod_shop🚀",
-      "type": "vless",
-      "server": "188.114.98.0",
-      "port": 443,
-      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "کانال تلگرام : Free_VPN_CH@_62",
+      "name": "کانال تلگرام : Free_VPN_CH@_81",
       "type": "vless",
       "server": "104.20.1.252",
       "port": 80,
@@ -842,6 +1060,20 @@
     },
     {
       "name": "@VpnPinks 🎀 عضو باشید قطع نشید",
+      "type": "vless",
+      "server": "5.10.214.154",
+      "port": 443,
+      "uuid": "463877de-87e1-4188-8b71-e7f5fc56df62",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/ws"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "V2ray_confiig`_83",
       "type": "vless",
       "server": "5.10.214.154",
       "port": 443,
@@ -883,11 +1115,11 @@
       "skip-cert-verify": true
     },
     {
-      "name": "کانال تلگرام : Free_VPN_CH@_66",
+      "name": "🇫🇷🗼 Paris",
       "type": "vless",
-      "server": "188.114.98.2",
-      "port": 443,
-      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
+      "server": "104.26.6.89",
+      "port": 8443,
+      "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
       "udp": true,
       "network": "ws",
       "ws-opts": {
@@ -951,19 +1183,23 @@
       }
     },
     {
-      "name": "US_speednode_0074",
-      "type": "vless",
-      "server": "14.102.228.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
+      "name": "美国 CloudFlare节点",
+      "type": "vmess",
+      "server": "turk1.net.net",
+      "port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "alterId": 0,
+      "cipher": "auto",
       "network": "ws",
       "ws-opts": {
-        "path": "/"
+        "path": "/",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
+        }
       }
     },
     {
-      "name": "美国 CloudFlare节点_72",
+      "name": "美国 CloudFlare节点_92",
       "type": "vmess",
       "server": "turk1.net.net",
       "port": 80,
@@ -979,347 +1215,93 @@
       }
     },
     {
-      "name": "SG新加坡(mibei77.com 米贝节点分享)",
+      "name": "🇸🇬SG_93",
       "type": "vless",
-      "server": "52.77.114.70",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享)_74",
-      "type": "vless",
-      "server": "92.53.190.138",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "DE德国(mibei77.com 米贝节点分享)_75",
-      "type": "vless",
-      "server": "45.12.31.138",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享)_76",
-      "type": "vless",
-      "server": "77.105.163.138",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "GB英国(mibei77.com 米贝节点分享)_77",
-      "type": "vless",
-      "server": "185.170.166.138",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "HK香港(mibei77.com 米贝节点分享)_78",
-      "type": "vless",
-      "server": "45.85.119.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "🇺🇸_US_美国",
-      "type": "vless",
-      "server": "172.67.160.192",
-      "port": 443,
-      "uuid": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/free/103.101.153.32:443"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "DE VLESS-51 | free-nodes",
-      "type": "vless",
-      "server": "104.18.32.47",
-      "port": 80,
-      "uuid": "1e35b4bf-b270-4c0b-918d-62746eedd2ad",
-      "udp": true
-    },
-    {
-      "name": "CA VLESS-64 | free-nodes",
-      "type": "vless",
-      "server": "104.18.32.47",
-      "port": 80,
-      "uuid": "4a8d4562-7192-4e83-8a24-75515a1666a3",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      }
-    },
-    {
-      "name": "未知 VLESS-72 | free-nodes",
-      "type": "vless",
-      "server": "104.20.1.252",
-      "port": 80,
-      "uuid": "65fe56c2-78ec-417a-a666-9f393eac8b61",
-      "udp": true
-    },
-    {
-      "name": "DE VLESS-75 | free-nodes",
-      "type": "vless",
-      "server": "104.18.185.26",
-      "port": 2096,
-      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "US VLESS-76 | free-nodes",
-      "type": "vless",
-      "server": "104.21.224.5",
-      "port": 2096,
-      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "未知 VLESS-93 | free-nodes",
-      "type": "vless",
-      "server": "104.18.32.47",
-      "port": 80,
-      "uuid": "a5712440-3cec-4a1b-82e8-767c54acd83a",
-      "udp": true
-    },
-    {
-      "name": "未知 VLESS-113 | free-nodes",
-      "type": "vless",
-      "server": "104.18.32.47",
-      "port": 80,
-      "uuid": "e9052516-1e37-4665-a0b4-a5c65dd0ab70",
-      "udp": true
-    },
-    {
-      "name": "[🏁]t.me/ConfigsHub`_87",
-      "type": "vless",
-      "server": "108.162.198.154",
-      "port": 443,
-      "uuid": "d89d6641-3b1a-4f51-a194-9c9109fd21b6",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/Tel-@V2rayAlpha"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "vless",
-      "type": "vless",
-      "server": "104.17.147.22",
-      "port": 8080,
-      "uuid": "%50a%72sa%73%68%6fna%6d-Bot-37",
-      "udp": true
-    },
-    {
-      "name": "@v2Meli_89",
-      "type": "vless",
-      "server": "104.24.34.94",
-      "port": 443,
-      "uuid": "b55ec078-3b17-4ed1-a697-71f464cdcaaa",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560/?JOKERRVPN"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "@v2Meli_90",
-      "type": "vless",
-      "server": "104.16.0.113",
-      "port": 80,
-      "uuid": "bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed=2560/?JOKERRVPN"
-      }
-    },
-    {
-      "name": "@v2Meli_91",
-      "type": "vless",
-      "server": "104.18.0.191",
-      "port": 443,
-      "uuid": "d5c1abb8-2024-4fc0-9810-09dc10a5b948",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/admin"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "🇫🇷🗼 Paris",
-      "type": "vless",
-      "server": "104.26.6.89",
+      "server": "104.234.151.10",
       "port": 8443,
-      "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/"
+        "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
       },
       "tls": true,
       "skip-cert-verify": true
     },
     {
-      "name": "🇺🇸 US 👻",
+      "name": "🇸🇬SG_94",
       "type": "vless",
-      "server": "104.21.3.219",
-      "port": 8443,
-      "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
+      "server": "52.76.110.129",
+      "port": 20001,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/57ba2ab1"
+        "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
       },
       "tls": true,
       "skip-cert-verify": true
     },
     {
-      "name": "🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.192.142:443",
+      "name": "🇺🇸US",
       "type": "vless",
-      "server": "172.67.192.142",
+      "server": "160.153.1.138",
       "port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/0ZMEGjVSSsqFUJqv?ed=2560"
+        "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
       },
       "tls": true,
       "skip-cert-verify": true
     },
     {
-      "name": "🔒 VL-WS-TLS 🏴‍☠️ NA-188.114.99.192:443",
+      "name": "🇸🇬SG_96",
       "type": "vless",
-      "server": "188.114.99.192",
+      "server": "45.77.35.218",
       "port": 443,
-      "uuid": "ad4aa165-c30d-48ec-9397-af1d1d3b1c4f",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
-        "path": "/?ed=2560"
+        "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
       },
       "tls": true,
       "skip-cert-verify": true
     },
     {
-      "name": "🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.128.253:443",
+      "name": "HK香港(mibei77.com 米贝节点分享)_97",
       "type": "vless",
-      "server": "172.67.128.253",
+      "server": "164.52.2.99",
       "port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/"
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "NL26｜机房｜低风险",
-      "type": "vmess",
-      "server": "nextmi.hajmyab.ir",
-      "port": 2053,
-      "uuid": "9585636a-54bc-419a-90a1-76c5c6ec74df",
-      "alterId": 0,
-      "cipher": "auto",
-      "network": "ws",
-      "ws-opts": {
-        "path": "/",
-        "headers": {
-          "Host": "app.hajmyab.ir"
-        }
-      },
-      "tls": true,
-      "skip-cert-verify": true
-    },
-    {
-      "name": "US美国(mibei77.com 米贝节点分享)_98",
-      "type": "vless",
-      "server": "nodejs.org",
-      "port": 80,
-      "uuid": "6abc2840-25fd-4dd7-b1aa-0892fe98f2d9",
-      "udp": true,
-      "network": "ws",
-      "ws-opts": {
-        "path": "/?ed"
-      }
-    },
-    {
-      "name": "HK香港(mibei77.com 米贝节点分享)_99",
-      "type": "vless",
-      "server": "167.68.42.238",
-      "port": 2096,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "udp": true,
       "network": "ws",
       "ws-opts": {
         "path": "/?ed=2560&Telegram🇨🇳@WangCai2"
+      },
+      "tls": true,
+      "skip-cert-verify": true
+    },
+    {
+      "name": "未知 VLESS-59 | free-nodes",
+      "type": "vless",
+      "server": "47.254.207.127",
+      "port": 443,
+      "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+      "udp": true
+    },
+    {
+      "name": "US VLESS-123 | free-nodes",
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
+      "udp": true,
+      "network": "ws",
+      "ws-opts": {
+        "path": "/"
       },
       "tls": true,
       "skip-cert-verify": true
@@ -1332,162 +1314,162 @@
       "proxies": [
         "♻️ 自动选择",
         "🎯 直连",
+        "🇬🇧GB英国",
         "未知12",
         "US美国(ProxyGo免费节点分享)",
-        "SG新加坡(ProxyGo免费节点分享)",
         "NL荷兰(ProxyGo免费节点分享)",
-        "github.com/freefq - 美国CloudFlare公司CDN节点 9",
+        "US_speednode_0079",
+        "俄羅斯",
         "GB英国(mibei77.com 米贝节点分享)",
-        "🇬🇧GB英国",
         "未知20",
         "未知21",
-        "US VLESS-121 | free-nodes",
-        "US_speednode_0079",
-        "DE VLESS-122 | free-nodes",
-        "俄羅斯",
-        "👉🆔 @v2ray_configs_pool 📡 🇩🇪DE_2 🧭 4.4MB/s",
+        "github.com/freefq - 美国CloudFlare公司CDN节点 9",
+        "SG新加坡(ProxyGo免费节点分享)",
+        "RU俄罗斯(mibei77.com 米贝节点分享)",
+        "HK香港(mibei77.com 米贝节点分享)",
+        "HK香港(mibei77.com 米贝节点分享)_13",
+        "US美国(mibei77.com 米贝节点分享)",
+        "US美国(mibei77.com 米贝节点分享)_15",
+        "DE德国(mibei77.com 米贝节点分享)",
+        "NL荷兰(mibei77.com 米贝节点分享)",
+        "US美国(mibei77.com 米贝节点分享)_18",
+        "GB英国(mibei77.com 米贝节点分享)_19",
+        "HK香港(mibei77.com 米贝节点分享)_20",
+        "未知11",
         "Buy @The_Last_Eli 🇩🇪🔗",
-        "🇬🇧GB英国2",
-        "US美国(ProxyGo免费节点分享)_16",
-        "美国 CloudFlare节点",
-        "巴西圣保罗 CloudFlare节点",
-        "美国 CloudFlare节点_19",
         "🇸🇬SG",
-        "🇸🇬SG_21",
-        "🇸🇬SG_22",
-        "US VLESS-123 | free-nodes",
+        "🇸🇬SG_24",
+        "CA加拿大(mibei77.com 米贝节点分享)",
+        "SG新加坡(mibei77.com 米贝节点分享)",
+        "DE德国(mibei77.com 米贝节点分享)_27",
+        "JP日本(mibei77.com 米贝节点分享)",
+        "🇺🇸_US_美国",
+        "🇺🇸_US_美国_2",
+        "🇺🇸_US_美国_3",
         "N/A-@V2rayAlpha-8",
         "@v2ray313 کانالمون 🫩",
         "☬SHΞN™",
-        "未知11",
+        " ☬SHΞN™",
         "未知15 147.0KB/s",
         "[🏁]t.me/ConfigsHub`",
-        "[🏁]t.me/ConfigsHub`_30",
-        "[🏁]t.me/ConfigsHub`_31",
-        "[🏁]t.me/ConfigsHub`_32",
+        "[🏁]t.me/ConfigsHub`_38",
+        "[🏁]t.me/ConfigsHub`_39",
+        "[🏁]t.me/ConfigsHub`_40",
+        "[🏁]t.me/ConfigsHub`_41",
+        "[🏁]t.me/ConfigsHub`_42",
+        "@V2rayng_Fast`",
+        "vless",
         "@v2Meli",
-        "@v2Meli_34",
-        "کانال تلگرام : Free_VPN_CH@",
-        "V2ray_confiig`",
-        "美国 V2CROSS.COM",
+        "@v2Meli_46",
+        "@v2Meli_47",
+        "@v2Meli_48",
+        "@v2Meli_49",
+        "🇬🇧GB英国2",
+        "🇺🇸US美国6",
         "🇸🇬新加坡节点",
-        "CA加拿大(mibei77.com 米贝节点分享)",
-        "HK香港(mibei77.com 米贝节点分享)",
-        "DE德国(mibei77.com 米贝节点分享)",
-        "RU俄罗斯(mibei77.com 米贝节点分享)",
-        "US美国(mibei77.com 米贝节点分享)",
-        "NL荷兰(mibei77.com 米贝节点分享)",
-        "🇺🇸_US_美国_2",
-        "🇺🇸_US_美国_3",
+        "🇸🇬SG_53",
+        "🇸🇬SG_54",
+        "🇸🇬SG_55",
         "🇺🇸_US_美国->🇫🇷_FR_法国",
         "🇺🇸_US_美国_5",
+        "未知 VLESS-72 | free-nodes",
+        "DE VLESS-75 | free-nodes",
+        "US VLESS-76 | free-nodes",
+        "@v2Meli_61",
+        "@v2Meli_62",
+        "@v2Meli_63",
+        "US_speednode_0074",
+        "JP日本(mibei77.com 米贝节点分享)_65",
+        "US美国(mibei77.com 米贝节点分享)_66",
         "DE VLESS-44 | free-nodes",
         "CA VLESS-50 | free-nodes",
+        "DE VLESS-51 | free-nodes",
+        "CA VLESS-64 | free-nodes",
+        "未知 VLESS-93 | free-nodes",
         "DE VLESS-104 | free-nodes",
         "未知 VLESS-111 | free-nodes",
-        " ☬SHΞN™",
-        "@v2Meli_54",
-        "@v2Meli_55",
-        "@v2Meli_56",
-        "کانال تلگرام : Free_VPN_CH@_57",
+        "未知 VLESS-113 | free-nodes",
+        "US VLESS-121 | free-nodes",
+        "DE VLESS-122 | free-nodes",
+        "کانال تلگرام : Free_VPN_CH@",
+        "V2ray_confiig`",
+        "کانال تلگرام : Free_VPN_CH@_79",
         "@v2rmeli 🌪️",
-        "کانال تلگرام : Free_VPN_CH@_59",
-        "NetAccount",
-        "@v2_mod_shop🚀",
-        "کانال تلگرام : Free_VPN_CH@_62",
+        "کانال تلگرام : Free_VPN_CH@_81",
         "@VpnPinks 🎀 عضو باشید قطع نشید",
+        "V2ray_confiig`_83",
         "🆔Telegram : @planB_net",
         "🇮🇷 IR 54 @Outline_Vpn",
-        "کانال تلگرام : Free_VPN_CH@_66",
+        "🇫🇷🗼 Paris",
         "🇩🇪 King 👑",
         "🇩🇪 DE 🗿",
         "🇩🇪 نوه هیتلر",
         "DE_speednode_0010",
-        "US_speednode_0074",
-        "美国 CloudFlare节点_72",
-        "SG新加坡(mibei77.com 米贝节点分享)",
-        "US美国(mibei77.com 米贝节点分享)_74",
-        "DE德国(mibei77.com 米贝节点分享)_75",
-        "US美国(mibei77.com 米贝节点分享)_76",
-        "GB英国(mibei77.com 米贝节点分享)_77",
-        "HK香港(mibei77.com 米贝节点分享)_78",
-        "🇺🇸_US_美国",
-        "DE VLESS-51 | free-nodes",
-        "CA VLESS-64 | free-nodes",
-        "未知 VLESS-72 | free-nodes",
-        "DE VLESS-75 | free-nodes",
-        "US VLESS-76 | free-nodes",
-        "未知 VLESS-93 | free-nodes",
-        "未知 VLESS-113 | free-nodes",
-        "[🏁]t.me/ConfigsHub`_87",
-        "vless",
-        "@v2Meli_89",
-        "@v2Meli_90",
-        "@v2Meli_91",
-        "🇫🇷🗼 Paris",
-        "🇺🇸 US 👻",
-        "🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.192.142:443",
-        "🔒 VL-WS-TLS 🏴‍☠️ NA-188.114.99.192:443",
-        "🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.128.253:443",
-        "NL26｜机房｜低风险",
-        "US美国(mibei77.com 米贝节点分享)_98",
-        "HK香港(mibei77.com 米贝节点分享)_99"
+        "美国 CloudFlare节点",
+        "美国 CloudFlare节点_92",
+        "🇸🇬SG_93",
+        "🇸🇬SG_94",
+        "🇺🇸US",
+        "🇸🇬SG_96",
+        "HK香港(mibei77.com 米贝节点分享)_97",
+        "未知 VLESS-59 | free-nodes",
+        "US VLESS-123 | free-nodes"
       ]
     },
     {
       "name": "♻️ 自动选择",
       "type": "url-test",
       "proxies": [
+        "🇬🇧GB英国",
         "未知12",
         "US美国(ProxyGo免费节点分享)",
-        "SG新加坡(ProxyGo免费节点分享)",
         "NL荷兰(ProxyGo免费节点分享)",
-        "github.com/freefq - 美国CloudFlare公司CDN节点 9",
+        "US_speednode_0079",
+        "俄羅斯",
         "GB英国(mibei77.com 米贝节点分享)",
-        "🇬🇧GB英国",
         "未知20",
         "未知21",
-        "US VLESS-121 | free-nodes",
-        "US_speednode_0079",
-        "DE VLESS-122 | free-nodes",
-        "俄羅斯",
-        "👉🆔 @v2ray_configs_pool 📡 🇩🇪DE_2 🧭 4.4MB/s",
+        "github.com/freefq - 美国CloudFlare公司CDN节点 9",
+        "SG新加坡(ProxyGo免费节点分享)",
+        "RU俄罗斯(mibei77.com 米贝节点分享)",
+        "HK香港(mibei77.com 米贝节点分享)",
+        "HK香港(mibei77.com 米贝节点分享)_13",
+        "US美国(mibei77.com 米贝节点分享)",
+        "US美国(mibei77.com 米贝节点分享)_15",
+        "DE德国(mibei77.com 米贝节点分享)",
+        "NL荷兰(mibei77.com 米贝节点分享)",
+        "US美国(mibei77.com 米贝节点分享)_18",
+        "GB英国(mibei77.com 米贝节点分享)_19",
+        "HK香港(mibei77.com 米贝节点分享)_20",
+        "未知11",
         "Buy @The_Last_Eli 🇩🇪🔗",
-        "🇬🇧GB英国2",
-        "US美国(ProxyGo免费节点分享)_16",
-        "美国 CloudFlare节点",
-        "巴西圣保罗 CloudFlare节点",
-        "美国 CloudFlare节点_19",
         "🇸🇬SG",
-        "🇸🇬SG_21",
-        "🇸🇬SG_22",
-        "US VLESS-123 | free-nodes",
+        "🇸🇬SG_24",
+        "CA加拿大(mibei77.com 米贝节点分享)",
+        "SG新加坡(mibei77.com 米贝节点分享)",
+        "DE德国(mibei77.com 米贝节点分享)_27",
+        "JP日本(mibei77.com 米贝节点分享)",
+        "🇺🇸_US_美国",
+        "🇺🇸_US_美国_2",
+        "🇺🇸_US_美国_3",
         "N/A-@V2rayAlpha-8",
         "@v2ray313 کانالمون 🫩",
         "☬SHΞN™",
-        "未知11",
+        " ☬SHΞN™",
         "未知15 147.0KB/s",
         "[🏁]t.me/ConfigsHub`",
-        "[🏁]t.me/ConfigsHub`_30",
-        "[🏁]t.me/ConfigsHub`_31",
-        "[🏁]t.me/ConfigsHub`_32",
+        "[🏁]t.me/ConfigsHub`_38",
+        "[🏁]t.me/ConfigsHub`_39",
+        "[🏁]t.me/ConfigsHub`_40",
+        "[🏁]t.me/ConfigsHub`_41",
+        "[🏁]t.me/ConfigsHub`_42",
+        "@V2rayng_Fast`",
+        "vless",
         "@v2Meli",
-        "@v2Meli_34",
-        "کانال تلگرام : Free_VPN_CH@",
-        "V2ray_confiig`",
-        "美国 V2CROSS.COM",
-        "🇸🇬新加坡节点",
-        "CA加拿大(mibei77.com 米贝节点分享)",
-        "HK香港(mibei77.com 米贝节点分享)",
-        "DE德国(mibei77.com 米贝节点分享)",
-        "RU俄罗斯(mibei77.com 米贝节点分享)",
-        "US美国(mibei77.com 米贝节点分享)",
-        "NL荷兰(mibei77.com 米贝节点分享)",
-        "🇺🇸_US_美国_2",
-        "🇺🇸_US_美国_3",
-        "🇺🇸_US_美国->🇫🇷_FR_法国",
-        "🇺🇸_US_美国_5",
-        "DE VLESS-44 | free-nodes"
+        "@v2Meli_46",
+        "@v2Meli_47",
+        "@v2Meli_48",
+        "@v2Meli_49"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300
