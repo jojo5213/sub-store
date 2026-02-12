@@ -210,6 +210,11 @@ proxies:
   server: 68.71.254.6
   port: 4145
   udp: true
+- name: US-Cox-41
+  type: socks5
+  server: 184.178.172.17
+  port: 4145
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -256,6 +261,7 @@ proxy-groups:
   - US-Cox-38
   - US-Cox-39
   - US-AT&T-40
+  - US-Cox-41
 - name: ♻️ 自动选择
   type: url-test
   proxies:
@@ -299,6 +305,7 @@ proxy-groups:
   - US-Cox-38
   - US-Cox-39
   - US-AT&T-40
+  - US-Cox-41
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
